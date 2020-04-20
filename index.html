@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel</title>
+
+    <link type="text/css" rel="stylesheet" href="libs/css/travelcustom.css">
+    <!--    <link rel="stylesheet" href="libs/fonts/fontawesome-free-5.11.2-web/fontawesome.min.css">-->
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row site">
+        <div class="site-header">
+            <div class="max-container">
+                <div class="top-header">
+                    <div class="site-header-logo">
+                        <h2>YokNgalam</h2>
+                    </div>
+                    <div class="site-header-menu">
+                        <div class="site-header-main-menu">
+                            <div class="mobile-menu">
+                                <div class="mobile-lines" onclick="toggleMenu()">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="desktop-menu">
+                                <nav>
+                                    <ul class="inline-menu" id="navBar" >
+                                        <!--                                    <li><a href="#">-->
+                                        <!--                                        <button type="button">Click</button>-->
+                                        <!--                                    </a></li>-->
+                                        <li class="active"><a class="active" href="#">Home</a></li>
+                                        <li><a href="#">Destination</a></li>
+                                        <li><a href="#">Ittinary</a></li>
+                                        <li><a href="#">Review</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </nav>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-login">
+                        <a href="#">
+                            <img src="libs/images/user.png" alt="user">
+                            <i class="fas fa-sort-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom-header">
+                    <div class="site-header-headText">
+                        <h1> lets get <span>lost</span></h1>
+                    </div>
+                    <div class="site-content-text">
+                        <p>Malang will never dissapointed you.</p>
+                        <p>From every step you took you will be amazed and suddenly fallin love with Malang</p>
+                    </div>
+                    <div class="site-content-btn">
+                        <button><a href="#">set ittinery now</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="site-content">
+
+            <div class="site-love ">
+                <div class="sit-love-content">
+                    <div class="love-content-img">
+                        <img src="libs/images/lovContent.png" alt="">
+                    </div>
+                    <div class="love-content-text">
+                        <h3>City of Love</h3>
+                        <p>Malang is the second largest city in East Java province, Indonesia. It has a history dating
+                            back to the ancient Mataram Kingdom. The city is famous for its cool temperature. People in
+                            East Java sometimes call it "Paris of East Java.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-content-des">
+                <div class="site-content-desContent">
+                    <div class="desContent-top">
+                        <div>
+                            <h3>Destination</h3>
+                            <p>Being around by many mountain, Malang not only came with mountain vacation, but our
+                                beach,
+                                cultural spot, and Human Interest is worth to experienced.</p>
+                        </div>
+                        <div>
+                            <p class="desContent-topReg"><i class="fas fa-info-circle"></i> see basic regulation</p>
+                        </div>
+                    </div>
+                    <div class="desContent-search">
+                        <div class="desContent-search-top">
+                            <i class="fas fa-search"></i>
+                            <input type="search" placeholder="search destination" name="search" class="place-search">
+                            <p><span>all place  /</span> recommended place</p>
+                        </div>
+                        <div class="desContent-search-content">
+                            <div class="search-content-batu">
+                                <div class="content-batu-text">
+                                    <img src="libs/images/search-title.png" alt="">
+                                    <h3>Batu</h3>
+                                    <p> is a city located in East Java Province of Indonesia. It is situated about 20 km
+                                        to
+                                        the northwest of Malang. Formerly, it was a part of Malang Regency; but in 2001,
+                                        Batu became an independent city.
+                                        A population of 190,000 people, it lies on the southern slopes of Gunung
+                                        Welirang.
+                                        Its population largely consists of Javanese.
+                                    </p>
+                                    <div class="arrow-more"><a href="#">see more <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-content-bromo">
+                                <div class="bromo-left">
+                                    <div class="bromo-left-content">
+                                        <img src="libs/images/mountine.png" alt="img-bromo">
+                                        <h3>Bromo</h3>
+                                        <p>Mount Bromo is an active volcano and part of the Tengger massif, in East
+                                            Java, Indonesia. At 2,329 metres (7,641 ft) it is not the highest peak
+                                            of the massif, but is the most well known</p>
+                                        <div class="arrow-more"><a href="#">see more <i class="fas fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bromo-right">
+                                    <img src="libs/images/palma.png" alt="">
+                                    <div class="arrow-more"><a href="#">see more <i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-content-pagination">
+                                <ul>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#"><i class="fas fa-angle-right"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-content-set">
+                <div class="set-content-top">
+                    <h3>Set Ittinery</h3>
+                    <p>Simply drag and drop what you want to visit, and voila we make a ittinery and schedule for your
+                        vacation. have a great trip !</p>
+                </div>
+                <div class="set-content">
+                    <div class="set-content-left">
+                        <div class="set-content-left-head">
+                            <h4>Your Ittinery Title Here</h4>
+                        </div>
+
+                        <div class="set-content-left-days">
+                            <div class="left-day-1">
+                                <p class="set-content-day">Day 1</p>
+                                <input type="date" class="set-content-date" data-date-format="DD MMMM YYYY"
+                                       value="2015-08-09">
+                                <div class="left-day-content1">
+                                    <img src="libs/images/mountine.png" alt="">
+                                    <p>Mt. Bromo</p>
+                                    <p class="time">03.30 - 09.00</p>
+                                </div>
+
+                                <div class="sub-dest">add sub destination <i class="fas fa-plus-circle"></i></div>
+
+                                <div class="left-day-content2">
+                                    <img src="libs/images/mountine.png" alt="">
+                                    <p>Mt. Bromo</p>
+                                    <p class="time">03.30 - 09.00</p>
+                                </div>
+
+                                <div class="left-day-content2-info">
+                                    <p>Enjoy Malang while Listening Music</p>
+                                </div>
+
+                                <div class="left-day-content2-info">
+                                    <p>Gonna Eat BAKSO</p>
+                                </div>
+
+                                <div class="sub-dest">add sub destination <i class="fas fa-plus-circle"></i></div>
+                            </div>
+                            <div class="left-day-2">
+                                <p class="set-content-day">Day 1</p>
+                                <input type="date" class="set-content-date" data-date-format="DD MMMM YYYY"
+                                       value="2015-08-09">
+                                <div class="left-day2-content">
+                                    <p>Drag Destination Here</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="save-print">
+                            <button class="save"><a href="#"><i class="far fa-file-pdf"></i> save as pdf</a></button>
+                            <button class="print"><a href="#"><i class="fas fa-print"></i> print</a></button>
+                        </div>
+                    </div>
+                    <div class="set-content-right">
+                        <h4>List of Destination</h4>
+                        <div class="sorting">
+                            <p>sort by:</p>
+                            <select>
+                                <option value="0" selected>Mountain</option>
+                                <option value="1">Title</option>
+                                <option value="2">Price</option>
+                                <option value="3">Time</option>
+                            </select>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="sorting-content">
+                            <div class="sorting-content-item">
+                                <div class="sorting-content-item-desc">
+                                    <p class="desc-title">Mt. Bromo</p>
+                                    <p class="desc-time">estimated time: <span>5 Hours</span></p>
+                                </div>
+                                <div class="sorting-content-item-img">
+                                    <img src="libs/images/mountine.png" alt="">
+                                    <p>view details</p>
+                                </div>
+                            </div>
+                            <div class="sorting-content-item">
+                                <div class="sorting-content-item-desc">
+                                    <p class="desc-title">Mt. Bromo</p>
+                                    <p class="desc-time">estimated time: <span>5 Hours</span></p>
+                                </div>
+                                <div class="sorting-content-item-img">
+                                    <img src="libs/images/mountine.png" alt="">
+                                    <p>view details</p>
+                                </div>
+                            </div>
+                            <div class="sorting-content-item">
+                                <div class="sorting-content-item-desc">
+                                    <p class="desc-title">Mt. Bromo</p>
+                                    <p class="desc-time">estimated time: <span>5 Hours</span></p>
+                                </div>
+                                <div class="sorting-content-item-img">
+                                    <img src="libs/images/mountine.png" alt="">
+                                    <p>view details</p>
+                                </div>
+                            </div>
+                            <div class="sorting-content-item">
+                                <div class="sorting-content-item-desc">
+                                    <p class="desc-title">Mt. Bromo</p>
+                                    <p class="desc-time">estimated time: <span>5 Hours</span></p>
+                                </div>
+                                <div class="sorting-content-item-img">
+                                    <img src="libs/images/mountine.png" alt="">
+                                    <p>view details</p>
+                                </div>
+                            </div>
+                            <div class="sorting-content-item">
+                                <div class="sorting-content-item-desc">
+                                    <p class="desc-title">Mt. Bromo</p>
+                                    <p class="desc-time">estimated time: <span>5 Hours</span></p>
+                                </div>
+                                <div class="sorting-content-item-img">
+                                    <img src="libs/images/mountine.png" alt="">
+                                    <p>view details</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-content-contact">
+                <div class="map"></div>
+                <h3>Contact</h3>
+                <div class="contact-info">
+                    <div class="contact-info-form">
+                        <form>
+                            <input type="email" placeholder="Your Email" name="email" id="email">
+                            <input type="text" placeholder="Company" name="name">
+                            <input type="text" placeholder="Subject" name="subject">
+                            <textarea name="message" id="message" cols="30" rows="3"
+                                      placeholder="Your Message"></textarea>
+                            <input type="submit" value="Send Message" name="submit">
+                        </form>
+                    </div>
+                    <div class="contact-info-alternative">
+                        <h4>You Can Find Us Here</h4>
+                        <p><i class="fas fa-home"></i> Jl.Danau Bratan sekian nomer sekian, Sawojajar Malang
+                            <span>find on maps</span>
+                        </p>
+                        <p><i class="fas fa-user"></i>(+62) 8816723812</p>
+                        <p><i class="fas fa-user"></i>(+62) 8512371632</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-content-touch">
+                <div class="svg"><div class="polygon"></div></div>
+                <div class="touch-content">
+                    <div class="touch-content-left">
+                        <h2>Keep in Touch</h2>
+                        <p>We Will Give you latest information about Malang</p>
+                    </div>
+                    <div class="touch-content-right">
+                        <input type="email" placeholder="Type Email Here for Subscribe">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-terms">
+                    <p>Term & Condition</p>
+                    <a href="#"> • Policy</a>
+                    <a href="#">• Privacy</a>
+                </div>
+                <div class="footer-social">
+                    <img src="libs/images/facebook%20(1).svg" alt="facebook">
+                    <img src="libs/images/twitter.svg" alt="twitter">
+                    <img src="libs/images/instagram%20(1).svg" alt="instagram">
+                </div>
+            </div>
+            <p>copyright@YokMalang. Allright Reserved. 2015</p>
+
+        </footer>
+    </div>
+</div>
+
+
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<script src="libs/js/travelstyle.js"></script>
+</body>
+</html>
+
